@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import UserList from "./UserList";
 import Input from "./Input";
+import ImageChangeOnMouseOver from "./ImageChangeOnMouseOver";
 import "./App.css";
 
 export default class App extends Component {
@@ -9,7 +10,8 @@ export default class App extends Component {
     return (
       <div className="App">
         <UserList />
-        <Input/>
+        <Input />
+        <ImageChangeOnMouseOver/>
       </div>
     );
   }

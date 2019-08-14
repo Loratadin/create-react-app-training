@@ -1,0 +1,30 @@
+.images__container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 2%;
+}
+.images__image-wrap {
+  width: 100%;
+  height: 50px;
+}
+.images__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .images__image-wrap {
+    height: 80px;
+  }
+}
+@media (min-width: 1024px) {
+  .images__container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .images__image-wrap {
+    height: 150px;
+  }
+}
