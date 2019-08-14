@@ -10,7 +10,7 @@ const ImageToggleOnMouseOver = ({ primaryImg, secondaryImg }) => {
             src={primaryImg}
             alt=""
             ref={imageRef}
-            className="images__image"
+            className="horizontal-images__image"
         />
     )
 }

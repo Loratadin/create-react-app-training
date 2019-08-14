@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import UserList from "./UserList";
 import Input from "./Input";
 import ImageChangeOnMouseOver from "./ImageChangeOnMouseOver";
+import ImageChangeOnScroll from "./ImageChangeOnScroll";
 import "./App.css";
 
 export default class App extends Component {
@@ -11,7 +12,8 @@ export default class App extends Component {
       <div className="App">
         <UserList />
         <Input />
-        <ImageChangeOnMouseOver/>
+        <ImageChangeOnMouseOver />
+        <ImageChangeOnScroll/>
       </div>
     );
   }

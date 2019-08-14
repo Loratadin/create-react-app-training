@@ -1,30 +1,13 @@
 import React from "react";
 import ImageToogleOnMouseOver from "./ImageToogleOnMouseOver";
+import { images } from "./utils.js";
 import "./imageChangeOnMouseOver.css";
 
 const ImageChangeOnMouseOver = () => {
-    const images = [
-        {
-            grayscaleVersion: "/static/image-grayscale-1.jpg",
-            colorfulVersion: "/static/image-colorful-1.jpg",
-        },
-        {
-            grayscaleVersion: "/static/image-grayscale-2.jpg",
-            colorfulVersion: "/static/image-colorful-2.jpg",
-        },
-        {
-            grayscaleVersion: "/static/image-grayscale-3.jpg",
-            colorfulVersion: "/static/image-colorful-3.jpg",
-        },
-        {
-            grayscaleVersion: "/static/image-grayscale-4.jpg",
-            colorfulVersion: "/static/image-colorful-4.jpg",
-        },
-     ]
     return (
-        <div className="images__container">
+        <div className="horizontal-images__container">
             {images.map(image => (
-                <div className="images__image-wrap">
+                <div className="horizontal-images__image-wrap">
                     <ImageToogleOnMouseOver
                         primaryImg={image.grayscaleVersion}
                         secondaryImg={image.colorfulVersion}
