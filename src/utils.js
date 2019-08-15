@@ -25,6 +25,7 @@ export const speakers = [
         sat: true,
         sun: true,
         favorite: false,
+        imageUrl:"public/static/speaker-1.jpg",
         bio:"Tellus integer feugiat scelerisque varius morbi enim nunc. Pharetra magna ac placerat.",
     },
     {
@@ -33,7 +34,8 @@ export const speakers = [
         lastName: "Guagerra",
         sat:false,
         sun:true,
-        favorite:true,
+        favorite: true,
+        imageUrl:"public/static/speaker-2.jpg",
         bio:"Commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Neque laoreet suspendisse",
     },
     {
@@ -42,7 +44,8 @@ export const speakers = [
         lastName: "Rhoss",
         sat:true,
         sun:false,
-        favorite:false,
+        favorite: false,
+        imageUrl:"public/static/speaker-3.jpg",
         bio:"Quis auctor elit sed vulputate mi sit amet. Scelerisque eleifend donec pretium vulputate.",
     },
     {
@@ -51,7 +54,8 @@ export const speakers = [
         lastName:"Williams",
         sat: true,
         sun:false,
-        favorite:false,
+        favorite: false,
+        imageUrl:"public/static/speaker-4.jpg",
         bio:"Cras tincidunt lobortis feugiat vivamus at. Nunc consequat interdum varius sit amet mattis.",
     },
 ]
